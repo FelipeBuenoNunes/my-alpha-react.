@@ -1,0 +1,26 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #414141;
+
+}
+button{
+    background-color: rgb(200, 195, 174);
+    /* width: 4vw;
+    height: 4vw; */
+    padding: 1.5rem;
+    margin: 8px;
+    font-size: 3rem;
+    border-radius: 0.2vw;
+}
+
+#display{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    font-size: 200px;
+    margin-top: 8rem;
+}
