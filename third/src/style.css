@@ -1,0 +1,43 @@
+#root > div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    padding: 20px;
+}
+.card > img{
+    width: 15vw;
+    height: 30vh;
+    border-radius: 0.7vw;
+}
+
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+.Alive > img:hover {
+    box-shadow: 0 0 5px 10px green;
+}
+.Alive span {
+    color: green;
+}
+
+.unknown > img:hover {
+    box-shadow: 0 0 5px 10px gray;
+}
+.unknown span {
+    color: gray;
+}
+
+.Dead > img:hover {
+    box-shadow: 0 0 5px 10px red;
+}
+.Dead span {
+    color: red;
+}
